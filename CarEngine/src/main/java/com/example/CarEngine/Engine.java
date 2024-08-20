@@ -1,10 +1,13 @@
 package com.example.CarEngine;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Engine {
     private String type;
 
-    public Engine(String type) {
-        this.type = type;
+    public Engine() {
+        this.type = "this";
     }
 
     public String getType() {
